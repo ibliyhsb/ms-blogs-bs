@@ -6,7 +6,7 @@ plugins {
 
 group = 'cl.duoc'
 version = '0.0.1-SNAPSHOT'
-description = 'Demo project for Spring Boot'
+description = 'Blogs BS service'
 
 java {
 	toolchain {
@@ -25,7 +25,7 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "2025.1.0")
+	set('springCloudVersion', '2025.1.0')
 }
 
 dependencies {
